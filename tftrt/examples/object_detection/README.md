@@ -33,7 +33,7 @@ python setup.py install --user
 <a name="od_download"></a>
 ### Download
 ```python
-from tftrt.examples.object_detection import download_model
+from tftrt.examples.object_detection import build_model
 
 frozen_graph = build_model(
     model_name="ssd_resnet_50_fpn_coco",
